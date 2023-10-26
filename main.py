@@ -19,9 +19,7 @@ while True:
         print("Your password has been encoded and stored!")
 
     elif user_input=="2":
-        break
+        print(f"The encoded password is {encoded_char}, and the original password is {password_in}")
     elif user_input == "3":
         break
 
-'''if __name__ == '__main__':
-    main()'''
